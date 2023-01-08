@@ -5,9 +5,9 @@
     "passes": 13,
     "pending": 0,
     "failures": 0,
-    "start": "2023-01-07T23:52:40.376Z",
-    "end": "2023-01-07T23:52:41.188Z",
-    "duration": 812
+    "start": "2023-01-08T21:48:12.992Z",
+    "end": "2023-01-08T21:48:13.573Z",
+    "duration": 581
   },
   "tests": [
     {
@@ -20,14 +20,14 @@
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -54,21 +54,21 @@
     },
     {
       "title": "returns the distance travelled in feet",
-      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "fullTitle": "index.js distanceTraveledInFeet() returns the distance travelled in feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "fullTitle": "index.js distanceTraveledInFeet() returns a distance in feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns distance when destination is below distance",
-      "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
+      "fullTitle": "index.js distanceTraveledInFeet() returns distance when destination is below distance",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -76,7 +76,7 @@
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -115,14 +115,14 @@
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -149,21 +149,21 @@
     },
     {
       "title": "returns the distance travelled in feet",
-      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "fullTitle": "index.js distanceTraveledInFeet() returns the distance travelled in feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "fullTitle": "index.js distanceTraveledInFeet() returns a distance in feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns distance when destination is below distance",
-      "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
+      "fullTitle": "index.js distanceTraveledInFeet() returns distance when destination is below distance",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -171,7 +171,7 @@
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },

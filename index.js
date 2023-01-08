@@ -14,28 +14,64 @@ function distanceFromHqInFeet(pickupLocation) {
     return distance * 264
 }
 
-function distanceTravelledInFeet(start, destination){
+function distanceTraveledInFeet(start, destination) {
     const distance = (destination - start) * 264
-    return (distance >= 0) ? distance : distance * -1
+    return (distance >=0) ? distance : distance * -1
 }
 
-
 function calculatesFarePrice(start, destination) {
-    const distance = distanceTravelledInFeet(start, destination)
+    const distance = distanceTraveledInFeet(start, destination)
     const shortDistance = 400
     const mediumDistance = 2000
     const longDistance = 2500
 
-    if(distance <= shortDistance) {
+    if(distance <= shortDistance){
         return 0
     } else if(distance > shortDistance && distance <= mediumDistance) {
         return (distance - shortDistance) * .02
     } else if(distance > mediumDistance && distance <= longDistance) {
         return 25
     } else {
-        if(distance >= longDistance) {
+        if(distance > longDistance){
             return 'cannot travel that far'
         }
     }
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function calculatesFarePrice(start, destination) {
+//     const distance = distanceTravelledInFeet(start, destination)
+//     const shortDistance = 400
+//     const mediumDistance = 2000
+//     const longDistance = 2500
+
+//     if(distance <= shortDistance) {
+//         return 0
+//     } else if(distance > shortDistance && distance <= mediumDistance) {
+//         return (distance - shortDistance) * .02
+//     } else if(distance > mediumDistance && distance <= longDistance) {
+//         return 25
+//     } else {
+//         if(distance >= longDistance) {
+//             return 'cannot travel that far'
+//         }
+//     }
+
+// }
